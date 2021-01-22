@@ -1,3 +1,18 @@
 h1{
   color:lightblue;
 }
+body{
+  background: #2E8B57;
+}
+td{
+  border: 1px dotted white;
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+header{
+  width: 350px;
+  background: linear-gradient(#3CB371, #20B2AA);
+}
