@@ -106,7 +106,7 @@ body {
   position: absolute;
   width: 651px;
   height: 451px;
-  background: url("../img/bg-promo.png");
+  background: url(../img/bg-promo.png) 0 center no-repeat;
   z-index: -1;
 
 }
