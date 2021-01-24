@@ -101,7 +101,7 @@ body {
 }
 .promo::after{
   top:-20px;
-  right:-600px;
+  right:-583px;
   content: "";
   position: absolute;
   width: 651px;
