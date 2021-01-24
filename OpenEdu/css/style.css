@@ -1,0 +1,130 @@
+body {
+  min-width: 1000px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin:0;
+  padding:0;
+}
+.container {
+  width: 1020px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0 30px;
+
+}
+
+.main-header {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  background-color: #6451d5;
+}
+.header-top{
+
+    margin: 0;
+    padding: 0;
+}
+.logo{
+  float: left;
+  width: 182px;
+  height: 82px;
+}
+.logo img {
+  display: block;
+}
+.main-menu{
+  float: right;
+  width: 670px;
+  margin-top: 25px;
+
+}
+.main-menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+.main-menu li{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.main-menu a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-right: 60px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 18px;
+}
+.main-menu .main-menu-last-a{
+  padding-right: 0px;
+}
+
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
+.main-menu a:active {
+  text-decoration: none;
+  opacity: 0.3;
+}
+
+.header-top{
+}
+.header-top::after{
+  display: table;
+  clear: both;
+  content: "";
+}
+.promo{
+  position: relative;
+  width: 450px;
+  margin-top: 93px;
+  margin-bottom: 80px;
+}
+.promo::after{
+  position: absolute;
+  content: "";
+  width: 651px;
+  height: 451px;
+  right: -651px;
+  top: 0px;
+  background: url("/img/bg-promo.png") no-repeat;
+  z-index: 1;
+}
+.promo .promo-title{
+  font-size: 45px;
+  font-weight: bold;
+  font-family:"Trebuchet MS", Arial, sans-serif;
+  line-height: 50px;
+  color: white;
+}
+.promo p{
+  margin-top: 35px;
+  font-size: 18px;
+  font-family:"Tahoma", Arial, sans-serif;
+  line-height: 30px;
+  color: bcb3f2;
+  padding-right:  100px;
+}
+.btn{
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-family:Arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 23px 78px;
+  width: 164px;
+  background-color: #382d78;
+  margin-top: 50px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  z-index: 5;
+}
