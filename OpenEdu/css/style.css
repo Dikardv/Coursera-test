@@ -35,8 +35,9 @@ body {
 }
 .main-menu{
   float: right;
-  width: 670px;
+  width: 672px;
   margin-top: 25px;
+  margin-right: -1px;
 
 }
 .main-menu ul{
@@ -56,12 +57,23 @@ body {
   display: block;
   color: #FFFFFF;
   text-decoration: none;
-  padding-right: 60px;
-  font-family: "Trebuchet MS", Arial, sans-serif;
+
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: bold;
   font-size: 18px;
+}
+.main-menu .main-menu-first-a{
+  padding-left: 0px;
+}
+.main-menu .main-menu-second-a{
+  padding-left: 51px;
+}
+.main-menu .main-menu-third-a{
+  padding-left: 50px;
 }
 .main-menu .main-menu-last-a{
   padding-right: 0px;
+  padding-left: 51px;
 }
 
 .main-menu a:hover {
@@ -84,43 +96,45 @@ body {
   position: relative;
   width: 450px;
   margin-top: 93px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 .promo::after{
   position: absolute;
   content: "";
   width: 651px;
   height: 451px;
-  right: -651px;
-  top: 0px;
-  background: url("/img/bg-promo.png") no-repeat;
+  right: -600px;
+  top: -25px;
+  background: url("/img/bg-promo.png") no-repeat 0 0;
   z-index: 1;
 }
 .promo .promo-title{
   font-size: 45px;
   font-weight: bold;
-  font-family:"Trebuchet MS", Arial, sans-serif;
+  font-family:"Trebuchet MS", sans-serif;
   line-height: 50px;
   color: white;
 }
-.promo p{
+.promo>p{
   margin-top: 35px;
   font-size: 18px;
-  font-family:"Tahoma", Arial, sans-serif;
+  font-family:"Tahoma", sans-serif;
   line-height: 30px;
-  color: bcb3f2;
+  color: #bcb3f2;
   padding-right:  100px;
 }
-.btn{
+.promo .btn{
   display: block;
   color: white;
   font-size: 20px;
-  font-family:Arial, sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
+
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  padding: 23px 78px;
-  width: 164px;
+  font-weight: bold;
+  padding: 23px 10px;
+  width: 300px;
   background-color: #382d78;
   margin-top: 50px;
   cursor: pointer;
