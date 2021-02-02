@@ -6,6 +6,9 @@ body {
   color: #000000;
   margin:0;
   padding:0;
+    box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
 }
 .container {
   width: 1020px;
@@ -143,4 +146,292 @@ body {
   outline: none;
   border: none;
   z-index: 5;
+}
+
+.features{
+    padding: 50px 0 45px 0;
+    background-color: #efefef;
+
+}
+
+.features-icon{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    background-color: #efefef;
+}
+.features-icon-schedule{
+    width:  56px;
+    height: 67px;
+    background:  #efefef url(../img/f-icon1.png) no-repeat 0 0;
+    
+    
+}
+.features-icon-practice{
+    width:  73px;
+    height: 67px;
+    background:   #efefef url(../img/f-icon2.png) no-repeat 0 0;
+}
+.features-icon-work{
+    width:  70px;
+    height: 67px;
+    background:  #efefef url(../img/f-icon3.png) no-repeat 0 0;
+}
+.features .container::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.features-item{
+    width: 320px;
+    float:  left; 
+    margin-right: 30px;
+    text-align: center;
+    
+}
+.features-item:last-child{
+    margin-right: 0px;
+}
+.features-title{
+    font-size: 22px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    padding-bottom: 6px;
+   
+}
+.features-item p{
+    color: #555555;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Tahoma";
+    margin-bottom: 0;
+}
+
+.education{
+    margin-top: -1px;
+    padding-top: 13px; 
+    background-color: white;
+    border-top: 1px solid transparent; 
+    border-bottom: 1px solid transparent;
+}
+.education h2{
+    font-style: normal;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.education table{
+    border-collapse: collapse;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.education table td{
+    border: 2px #a3a3a3 solid;
+    padding: 20px 44px 20px 30px;
+    text-align: left;
+    color: #404040;
+}
+.education table tr:nth-child(1){
+    background: #efefef !important;
+    font-family: "Tahoma", sans-serif !important;
+    font-size: 18px !important;
+    line-height: 30px !important;
+}
+.education table tr:nth-child(1)> td:nth-child(2){
+    padding-right: 45px;    
+}
+.education table tr:nth-child(n+2)> td:nth-child(1){
+    white-space: nowrap;
+    font-style: normal;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 22px;
+
+}
+.education table tr:nth-child(n+2)> td:nth-child(2){
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 22px;
+    
+}
+.education table tr:nth-child(n+2)> td:nth-child(3){
+    font-family: "Tahoma", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    vertical-align: top;
+    color: #404040;
+}
+
+.contacts{
+    background-color: #efefef;
+    padding-top: 25px;
+    
+}
+.contacts-title{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.contacts .contacts-form{
+    float: left;
+}
+.contacts .contacts-instruction{
+    float: right;
+    margin-left: 30px;
+    width: 320px;
+
+}
+.contacts .container{
+    padding-bottom: 0px !important;
+}
+.contacts .container::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.contacts .contacts-form .title{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: middle;
+    width: 110px;
+    padding-right: 20px;
+
+}
+.contacts .contacts-form table tr{
+    height: 60px
+}
+.contacts .contacts-form table td{
+    width: 501px;
+}
+.contacts .contacts-form .field{
+    
+}
+
+.contacts .contacts-form input[type="text"],
+.contacts .contacts-form textarea{
+    width: 100% !important;
+    resize: none;
+    padding: 13px 23px;
+    box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+    outline: none;
+    border: 2px solid #b2b2b2;
+    border-radius: 2px;
+}
+.contacts .contacts-form textarea{
+    height: 100px !important;
+}
+
+#fullname{
+    font-family: "Tahoma", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #404040;
+}
+#message{
+    font-family: "Tahoma", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #404040;
+}
+.contacts .contacts-form input[type="submit"]{
+    width: 100%;
+    outline: none;
+    border: 2px solid #b2b2b2;
+    padding: 25px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #382d78;
+}
+.contacts .contacts-form input[type=radio]{
+    margin-left: 10px;
+}
+.contacts .contacts-form label:nth-child(2){
+    margin-left: 90px;
+
+}
+.contacts .contacts-instruction h3{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    white-space:
+}
+.contacts .contacts-instruction p{
+    font-family: "Tahoma", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #555555;
+}
+.contacts .contacts-instruction .contacts-alert{
+    margin-top: 30px;
+    margin-bottom: 73px;
+}
+.contacts-instruction h3{
+    margin: 0;
+}
+.main-footer{
+    background-color: #2a2546;
+}
+.footer-top::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.main-footer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer-top .logo{
+    margin-bottom: 50px;
+}
+.footer-address{
+    float:left;
+}
+.footer-menu{
+    float: left;
+    margin-left: 50px;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: #8a85a4;
+    font-family: "Tahoma", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+.footer-menu h3{
+    color:#ffffff;
+}
+.footer-address p{
+    color: #ffffff;
+}
+.footer-menu li{
+    list-style: none;
+
+}
+.footer-menu ul{
+    padding: 0;
+    margin: 0;
+    line-height: 2.5em;
 }
