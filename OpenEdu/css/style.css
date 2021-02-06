@@ -64,6 +64,12 @@ body {
   font-family: "Trebuchet MS", sans-serif;
   font-weight: bold;
   font-size: 18px;
+    
+
+text-decoration-color: transparent;
+text-decoration-style: solid;
+text-decoration-line: underline;
+transition: all 0.8s ease;
 }
 .main-menu .main-menu-first-a{
   padding-left: 0px;
@@ -80,11 +86,22 @@ body {
 }
 
 .main-menu a:hover {
-  text-decoration: underline;
+    color: lawngreen;
+    transform: scale(1.1);
+    text-decoration: underline solid lawngreen;
+    transition: all 0.5s ease-out;
+
+}
+.main-menu a:hover {
+    color: lawngreen;
+    text-decoration: underline solid lawngreen;
+    transition: all 0.5s ease-out;
+
 }
 
 .main-menu a:active {
   text-decoration: none;
+    color: #9d93e2;
   opacity: 0.3;
 }
 
@@ -146,12 +163,23 @@ body {
   outline: none;
   border: none;
   z-index: 5;
+    transition: all 1s ease;
+}
+.btn:hover{
+    font-size: 21px;
+    background-color: #32286c;
+    transition: all 0.5s ease;
+    color: lawngreen;
+}
+.btn:active{
+    color:#8581a1;
+    background: #32286c;
+    font-size: 20px;
 }
 
 .features{
     padding: 50px 0 45px 0;
     background-color: #efefef;
-
 }
 
 .features-icon{
@@ -186,8 +214,7 @@ body {
     width: 320px;
     float:  left; 
     margin-right: 30px;
-    text-align: center;
-    
+    text-align: center;  
 }
 .features-item:last-child{
     margin-right: 0px;
