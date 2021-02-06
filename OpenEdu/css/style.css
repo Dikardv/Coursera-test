@@ -64,7 +64,7 @@ body {
   font-family: "Trebuchet MS", sans-serif;
   font-weight: bold;
   font-size: 18px;
-    
+
 
 text-decoration-color: transparent;
 text-decoration-style: solid;
@@ -90,6 +90,7 @@ transition: all 0.8s ease;
     transform: scale(1.1);
     text-decoration: underline solid lawngreen;
     transition: all 0.5s ease-out;
+    
 
 }
 .main-menu a:hover {
@@ -192,8 +193,8 @@ transition: all 0.8s ease;
     width:  56px;
     height: 67px;
     background:  #efefef url(../img/f-icon1.png) no-repeat 0 0;
-    
-    
+
+
 }
 .features-icon-practice{
     width:  73px;
@@ -212,9 +213,9 @@ transition: all 0.8s ease;
 }
 .features-item{
     width: 320px;
-    float:  left; 
+    float:  left;
     margin-right: 30px;
-    text-align: center;  
+    text-align: center;
 }
 .features-item:last-child{
     margin-right: 0px;
@@ -224,7 +225,7 @@ transition: all 0.8s ease;
     font-family: "Trebuchet MS";
     font-weight: bold;
     padding-bottom: 6px;
-   
+
 }
 .features-item p{
     color: #555555;
@@ -236,9 +237,9 @@ transition: all 0.8s ease;
 
 .education{
     margin-top: -1px;
-    padding-top: 13px; 
+    padding-top: 13px;
     background-color: white;
-    border-top: 1px solid transparent; 
+    border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
 }
 .education h2{
@@ -267,7 +268,7 @@ transition: all 0.8s ease;
     line-height: 30px !important;
 }
 .education table tr:nth-child(1)> td:nth-child(2){
-    padding-right: 45px;    
+    padding-right: 45px;
 }
 .education table tr:nth-child(n+2)> td:nth-child(1){
     white-space: nowrap;
@@ -288,7 +289,7 @@ transition: all 0.8s ease;
     text-align: left;
     vertical-align: top;
     padding-top: 22px;
-    
+
 }
 .education table tr:nth-child(n+2)> td:nth-child(3){
     font-family: "Tahoma", sans-serif;
@@ -302,7 +303,7 @@ transition: all 0.8s ease;
 .contacts{
     background-color: #efefef;
     padding-top: 25px;
-    
+
 }
 .contacts-title{
     font-family: "Trebuchet MS", sans-serif;
@@ -347,7 +348,7 @@ transition: all 0.8s ease;
     width: 501px;
 }
 .contacts .contacts-form .field{
-    
+
 }
 
 .contacts .contacts-form input[type="text"],
